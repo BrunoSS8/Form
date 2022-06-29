@@ -1,0 +1,14 @@
+.botao:hover{
+    background-color:pink;
+}
+
+.borda:focus{
+    background-color: beige;
+    outline-color:darkcyan;
+
+}
+
+input{
+    padding: 10px;
+    
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+    <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+        <h1>Formulário</h1>
+
+    <form action="http://hub.fatecrl.edu.br/sobrino/recebe-v2.php" method="post">
+         
+        
+        <p>
+         <label for="email">E-mail</label><br> 
+        
+        <input type="email" class="borda" name="email" id="email" required placeholder="Seu E-mail"  minlength="5" maxlength="30" style="width: 58%;">
+        </p>
+    
+    
+
+        <p>
+            <label for="password">Senha</label><br>
+            <input type="password" class="borda" name="senha" id="password" required placeholder="Sua senha" size="30" minlength="5" maxlength="8">
+        </p>
+
+        <p>
+            <fieldset style="width: 58%;">
+                <legend title="Informa&ccedil;&atilde;o complementar da legenda">
+                  Deseja assinar nosso boletim?</legend>
+                <input type="radio" checked name="Opcao" id="pradio1" value="Sim">
+                <label for="pradio1">Sim</label>
+                <input type="radio" name="Opcao" id="pradio2" value="Nao">
+                <label for="pradio2">Não</label><br>
+                </fieldset>
+    
+
+        <p>
+
+        <input class="botao" type="submit" value="Confirmar">
+
+    </form>    
+
+    </body>
+
+</html>
